@@ -1,0 +1,12 @@
+git pull //para actualizar tu repositorio a la ultima version
+git clone <url> //clonar un nuevo repositorio
+git checkout <archivo> // para desacer un cambio en un archivo del commit
+
+--comandos para generar commit--
+git status // para saber que cambios hice
+
+git add <archivo> //para agregar archivos al commit, con . agregas todo los archivos
+
+git commit -m "mensaje" // agregar el commit y dar un mensaje
+
+git push origin master //genera el commit hacia el servidor
